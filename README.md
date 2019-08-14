@@ -3,7 +3,7 @@
 
 ### 简单使用(纯微信效果)
 
-1、在需要显示的Activity重写dispatchTouchEvent，并设置一个变量用于保存motionEvent。
+1、在需要显示的Activity重写dispatchTouchEvent，并设置一个变量用于保存motionEvent。（如果需要设置一个全局的MotionEvent，则需要在BaseActivity重写dispatchTouchEvent并提供一个方法获取motionEvent对象即可）
 
 ```
 override fun dispatchTouchEvent(ev: MotionEvent?): Boolean {
