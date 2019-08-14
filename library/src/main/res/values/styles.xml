@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MotionEventPopupWindowTopLeftAnimation" parent="android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_motionevent_popup_window_top_left_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_motionevent_popup_window_top_left_out</item>
+    </style>
+
+
+    <style name="MotionEventPopupWindowTopRightAnimation" parent="android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_motionevent_popup_window_top_right_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_motionevent_popup_window_top_right_out</item>
+    </style>
+
+    <style name="MotionEventPopupWindowBottomRightAnimation" parent="android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_motionevent_popup_window_bottom_right_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_motionevent_popup_window_bottom_right_out</item>
+    </style>
+
+
+    <style name="MotionEventPopupWindowBottomLeftAnimation" parent="android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_motionevent_popup_window_bottom_left_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_motionevent_popup_window_bottom_left_out</item>
+    </style>
+</resources>

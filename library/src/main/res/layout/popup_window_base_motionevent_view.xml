@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dd.ShadowLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:pp="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shadowLayout"
+        android:background="?attr/selectableItemBackground"
+        app:sl_dx="2dp"
+        app:sl_dy="2dp"
+        app:sl_shadowColor="#22FFFFFF"
+        pp:sl_shadowRadius="4dp">
+</com.dd.ShadowLayout>
