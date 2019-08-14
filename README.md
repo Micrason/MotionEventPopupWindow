@@ -62,3 +62,8 @@ class CustomMotionEventPopupWindow(context: Context) :BaseMotionEventPopupWindow
 ### 效果展示
 
 <img width="270" height="585" src="https://s31.aconvert.com/convert/p3r68-cdx67/tpv68-1z756.gif"/><img width="270" height="585" src="https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(2).jpg"/><img width="270" height="585" src="https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(3).jpg"/>
+
+
+### 其他
+
+有问题欢迎提交issue，没问题欢迎给个start
