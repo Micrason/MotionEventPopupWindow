@@ -1,6 +1,15 @@
 # MotionEventPopupWindow
 类似微信根据手指长按位置精准弹出的PopupWindow，自动根据左右上下边距调整显示的方向。[APK体验包](https://github.com/KCrason/MotionEventPopupWindow/blob/master/apk/app-debug.apk)
 
+### 准备工作
+
+1、导入依赖
+
+```
+ implementation 'com.kcrason:motionevent-popupwindow:1.0.0'
+
+```
+
 ### 简单使用(纯微信效果)
 
 1、在需要显示的Activity重写dispatchTouchEvent，并设置一个变量用于保存motionEvent。（如果需要设置一个全局的MotionEvent，则需要在BaseActivity重写dispatchTouchEvent并提供一个方法获取motionEvent对象即可）
