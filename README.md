@@ -50,4 +50,4 @@ class CustomMotionEventPopupWindow(context: Context) :BaseMotionEventPopupWindow
 }
 
 ```
-2、在需要显示的地方调用``` fun showMotionEventPopupWindow(anchor: View?, currentMotionEvent: MotionEvent?) ```方法显示popupwindow
+2、在需要显示的地方调用``` showMotionEventPopupWindow(anchor: View?, currentMotionEvent: MotionEvent?) ```方法显示popupwindow
