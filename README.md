@@ -54,6 +54,6 @@ class CustomMotionEventPopupWindow(context: Context) :BaseMotionEventPopupWindow
 
 ### 效果展示
 
-<img width="270" height="480" src="https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(1).jpg"/><img width="270" height="480" src="https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(2).jpg"/><img width="270" height="480" src="https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(3).jpg"/>
+<img width="270" height="585" src="https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(1).jpg"/><img width="270" height="585" src="https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(2).jpg"/><img width="270" height="585" src="https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(3).jpg"/>
 
 
