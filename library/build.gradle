@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
-
+apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.0"
@@ -25,6 +25,17 @@ android {
     }
 
 }
+
+publish {
+    userOrg = 'kcrason'//bintray中的用户名
+    groupId = 'com.kcrason'//根地址，一般是com.用户名
+    artifactId = 'motionevent-popupwindow'//library名称
+    publishVersion = '1.0.0'//版本号，更新Library的时候只需要增加版本号即可。
+    desc = 'motionevent popupwindow'//描述，这个随意
+    //website：项目地址，一般项目都会上传github,这里给github的地址即可
+    website = 'https://github.com/KCrason/MotionEventPopupWindow'
+}
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
