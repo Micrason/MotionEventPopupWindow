@@ -7,7 +7,6 @@
 
 ```
  implementation 'com.kcrason:motionevent-popupwindow:1.0.0'
-
 ```
 
 ### 简单使用(纯微信效果)
@@ -57,7 +56,6 @@ class CustomMotionEventPopupWindow(context: Context) :BaseMotionEventPopupWindow
         //返回popupwindow的宽度，一般使用固定的值即可。
     }
 }
-
 ```
 2、在需要显示的地方调用``` showMotionEventPopupWindow(anchor: View?, currentMotionEvent: MotionEvent?) ```方法显示popupwindow
 
