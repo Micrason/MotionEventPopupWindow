@@ -1,5 +1,5 @@
 # MotionEventPopupWindow
-类似微信根据长按位置弹出的PopupWindow，自动根据左右上下边距调整显示的方向。
+类似微信根据长按位置弹出的PopupWindow，自动根据左右上下边距调整显示的方向。[APK体验包](https://github.com/KCrason/MotionEventPopupWindow/blob/master/apk/app-debug.apk)
 
 ### 简单使用(纯微信效果)
 
@@ -51,3 +51,8 @@ class CustomMotionEventPopupWindow(context: Context) :BaseMotionEventPopupWindow
 
 ```
 2、在需要显示的地方调用``` showMotionEventPopupWindow(anchor: View?, currentMotionEvent: MotionEvent?) ```方法显示popupwindow
+
+### 效果展示
+![效果图1](https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(1).jpg)
+![效果图2](https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(2).jpg)
+![效果图3](https://github.com/KCrason/MotionEventPopupWindow/blob/master/screenshot/2%20(3).jpg)
