@@ -25,3 +25,29 @@ txtCenterClick.setOnLongClickListener {
             return@setOnLongClickListener true
         }
 ```
+
+### 自定义界面的Popupwindow
+
+1、创建新类继承BaseMotionEventPopupWindow即可。
+
+```
+class CustomMotionEventPopupWindow(context: Context) :BaseMotionEventPopupWindow(context) {
+    override fun init() {
+        //初始化一些参数
+    }
+
+    override fun getContainerLayoutId(): Int {
+        //返回你需要显示的popupwindow xml
+    }
+
+    override fun getRealPopupWindowHeight(): Int {
+        //返回popupwindow真实的高度，该高度在计算显示popupwindow的位置时需要用到，必须保证其准确性。
+    }
+
+    override fun getWindowWidth(): Int {
+        //返回popupwindow的宽度，一般使用固定的值即可。
+    }
+}
+
+```
+2、在需要显示的地方调用``` fun showMotionEventPopupWindow(anchor: View?, currentMotionEvent: MotionEvent?) ```方法显示popupwindow
