@@ -6,24 +6,51 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left-Top"
+            android:id="@+id/txtLeftTopClick"/>
+
     <Button android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TopMotionEventWindow"
-            android:id="@+id/txtTopClick"/>
+            android:text="Center-Top"
+            android:id="@+id/txtCenterTopClick"/>
+
+    <Button android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right-Top"
+            android:id="@+id/txtRightTopClick"/>
 
     <Button android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CenterMotionEventWindow"
+            android:text="Center(长按显示)"
             android:id="@+id/txtCenterClick"/>
 
+
+    <Button android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left-Bottom"
+            android:id="@+id/txtLeftBottomClick"/>
 
     <Button android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BottomMotionEventWindow"
-            android:id="@+id/txtBottomClick"/>
+            android:text="Center-Bottom"
+            android:id="@+id/txtCenterBottomClick"/>
+
+    <Button android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right-Bottom"
+            android:id="@+id/txtRightBottomClick"/>
 
 </RelativeLayout>

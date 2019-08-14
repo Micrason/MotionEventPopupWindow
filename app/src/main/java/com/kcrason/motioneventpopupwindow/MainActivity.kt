@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             return@setOnLongClickListener true
         }
 
-        txtTopClick.setOnLongClickListener {
+        txtLeftTopClick.setOnLongClickListener {
             CommonMotionEventPopupWindow(this)
                 .showOptions(arrayListOf("复制", "粘贴", "发送", "翻译", "发送给好友"))
                 .setOnClickItemOptionsListener { position, optionName ->
@@ -39,7 +39,49 @@ class MainActivity : AppCompatActivity() {
             return@setOnLongClickListener true
         }
 
-        txtBottomClick.setOnLongClickListener {
+        txtCenterTopClick.setOnLongClickListener {
+            CommonMotionEventPopupWindow(this)
+                .showOptions(arrayListOf("复制", "粘贴", "发送", "翻译", "发送给好友"))
+                .setOnClickItemOptionsListener { position, optionName ->
+                    Toast.makeText(this, "this is $position , optionName:$optionName", Toast.LENGTH_SHORT).show()
+                }
+                .showMotionEventPopupWindow(it, mMotionEvent)
+            return@setOnLongClickListener true
+        }
+
+
+        txtRightTopClick.setOnLongClickListener {
+            CommonMotionEventPopupWindow(this)
+                .showOptions(arrayListOf("复制", "粘贴", "发送", "翻译", "发送给好友"))
+                .setOnClickItemOptionsListener { position, optionName ->
+                    Toast.makeText(this, "this is $position , optionName:$optionName", Toast.LENGTH_SHORT).show()
+                }
+                .showMotionEventPopupWindow(it, mMotionEvent)
+            return@setOnLongClickListener true
+        }
+
+        txtLeftBottomClick.setOnLongClickListener {
+            CommonMotionEventPopupWindow(this)
+                .showOptions(arrayListOf("复制", "粘贴", "发送", "翻译", "发送给好友"))
+                .setOnClickItemOptionsListener { position, optionName ->
+                    Toast.makeText(this, "this is $position , optionName:$optionName", Toast.LENGTH_SHORT).show()
+                }
+                .showMotionEventPopupWindow(it, mMotionEvent)
+            return@setOnLongClickListener true
+        }
+
+        txtCenterBottomClick.setOnLongClickListener {
+            CommonMotionEventPopupWindow(this)
+                .showOptions(arrayListOf("复制", "粘贴", "发送", "翻译", "发送给好友"))
+                .setOnClickItemOptionsListener { position, optionName ->
+                    Toast.makeText(this, "this is $position , optionName:$optionName", Toast.LENGTH_SHORT).show()
+                }
+                .showMotionEventPopupWindow(it, mMotionEvent)
+            return@setOnLongClickListener true
+        }
+
+
+        txtRightBottomClick.setOnLongClickListener {
             CommonMotionEventPopupWindow(this)
                 .showOptions(arrayListOf("复制", "粘贴", "发送", "翻译", "发送给好友"))
                 .setOnClickItemOptionsListener { position, optionName ->
